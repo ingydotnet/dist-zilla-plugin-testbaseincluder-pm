@@ -12,6 +12,7 @@ has module => (
   },
   default => sub {[qw(
     Test::Base
+    Test::Base::Filter
   )]},
 );
 
@@ -22,7 +23,10 @@ has blacklist => (
         blacklisted_modules => 'elements',
     },
     default => sub {[qw(
-        XXX
+        LWP::Simple
+        Test::Deep
+        Text::Diff
+        YAML
     )]},
 );
 
@@ -34,8 +38,10 @@ sub gather_files {
     -d "$testbase/.git"
   ) {
     eval "use lib '$testbase/lib'; 1" or die $@;
+    $self->SUPER::gather_files(@_);
+    return;
   }
-  $self->SUPER::gather_files(@_);
+  die "Test::Base repo missing or not in right state";
 }
 
 __PACKAGE__->meta->make_immutable;
