@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: Dist-Zilla-Plugin-TestBaseIncluder
-version: 0.02
+version: 0.03
 abstract: Ship your Test::Base version
 homepage: https://metacpan.org/release/Test-Base
 

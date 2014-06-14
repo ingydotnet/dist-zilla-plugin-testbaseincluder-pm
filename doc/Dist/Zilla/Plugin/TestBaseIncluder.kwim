@@ -3,6 +3,8 @@ Dist::Zilla::Plugin::TestBaseIncluder
 
 Ship your Test::Base version
 
+<badge travis coveralls ingydotnet/dist-zilla-plugin-testbaseincluder-pm>
+
 = Synopsis
 
 In dist.ini:

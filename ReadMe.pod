@@ -10,6 +10,10 @@ See http://github.com/ingydotnet/kwim-pm#readme
 
 Dist::Zilla::Plugin::TestBaseIncluder - Ship your Test::Base version
 
+=for html
+<a href="https://travis-ci.org/ingydotnet/dist-zilla-plugin-testbaseincluder-pm"><img src="https://travis-ci.org/ingydotnet/dist-zilla-plugin-testbaseincluder-pm.png" alt="dist-zilla-plugin-testbaseincluder-pm"></a>
+<a href="https://coveralls.io/r/ingydotnet/dist-zilla-plugin-testbaseincluder-pm?branch=master"><img src="https://coveralls.io/repos/ingydotnet/dist-zilla-plugin-testbaseincluder-pm/badge.png" alt="dist-zilla-plugin-testbaseincluder-pm"></a>
+
 =head1 SYNOPSIS
 
 In dist.ini:
