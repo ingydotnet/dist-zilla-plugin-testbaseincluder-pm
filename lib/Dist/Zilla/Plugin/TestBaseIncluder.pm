@@ -1,4 +1,5 @@
 package Dist::Zilla::Plugin::TestBaseIncluder;
+our $VERSION = '0.04';
 
 use Moose;
 
