@@ -1,28 +1,27 @@
-=meta: 0.0.1
+=meta: 0.0.2
 
 name: Dist-Zilla-Plugin-TestBaseIncluder
-version: 0.08
+version: 0.09
 abstract: Ship your Test::Base version
 homepage: https://metacpan.org/release/Test-Base
-
+language: perl
 license: perl
-copyright: 2014. Ingy döt Net
+copyright: 2014
+
 author:
   name: Ingy döt Net
   email: ingy@cpan.org
+  homepage: http://ingy.net
   github: ingydotnet
   twitter: ingydotnet
   freenode: ingy
-  homepage: http://ingy.net
-
-requires:
-  perl: 5.8.1
-  Dist::Zilla::Plugin::ModuleIncluder: 0
-  Moose: 0
 
 devel:
   git: https://github.com/ingydotnet/dist-zilla-testbaseincluder-pm
   bug: https://github.com/ingydotnet/dist-zilla-testbaseincluder-pm/issues
   irc: irc.freenode.net#pkg
 
-=travis: perl
+requires:
+  perl: 5.8.1
+  Dist::Zilla::Plugin::ModuleIncluder: 0
+  Moose: 0
