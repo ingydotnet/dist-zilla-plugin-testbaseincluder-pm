@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: Dist-Zilla-Plugin-TestBaseIncluder
-version: 0.07
+version: 0.08
 abstract: Ship your Test::Base version
 homepage: https://metacpan.org/release/Test-Base
 
@@ -23,6 +23,6 @@ requires:
 devel:
   git: https://github.com/ingydotnet/dist-zilla-testbaseincluder-pm
   bug: https://github.com/ingydotnet/dist-zilla-testbaseincluder-pm/issues
-  irc: irc.perl.org#distzilla
+  irc: irc.freenode.net#pkg
 
 =travis: perl

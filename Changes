@@ -1,4 +1,9 @@
 ---
+version: 0.08
+date:    Fri Aug 15 21:39:10 PDT 2014
+changes:
+- Don't bug #distzilla with commit msgs
+---
 version: 0.07
 date:    Fri Aug 15 21:18:04 PDT 2014
 changes:
